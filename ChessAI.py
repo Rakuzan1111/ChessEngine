@@ -63,7 +63,7 @@ blackPawnScores = [[0, 0, 0, 0, 0, 0, 0, 0],
 piecePositionScores = {"N": knightScores, "Q": queenScores, 'B': bishopScores, 'R': rookScores, 'bp': blackPawnScores, 'wp': whitePawnScores}
 CHECKMATE = 1000
 STALEMATE = 0
-DEPTH = 3
+DEPTH = 2
 
 def findRandomMove(validMoves):
      return validMoves[random.randint(0, len(validMoves)-1)] if len(validMoves) != 0 else None
