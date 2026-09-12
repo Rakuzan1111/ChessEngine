@@ -2,7 +2,7 @@
 from idlelib.config_key import MOVE_KEYS
 
 import pygame as p
-from winerror import MENROLL_E_DISCOVERY_SEC_CERT_DATE_INVALID
+
 
 import ChessEngine
 import ChessAI
